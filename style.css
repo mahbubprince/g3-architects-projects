@@ -1,0 +1,92 @@
+.work-sans-primary {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared style */
+.dark-1 {
+    color: #131313;
+}
+
+.dark-2 {
+    color: #424242;
+}
+
+.dark-3 {
+    color: #727272;
+}
+
+.btn-color {
+    background-color: #FF900E;
+    color: white;
+}
+
+.bg-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+
+/* nav style */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 230px;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 34px;
+    margin-right: 240px;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.02rem;
+}
+
+/* banner style */
+.banner-contain {
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-head {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-des {
+    font-size: 1rem;
+}
+
+.explore-btn {
+    height: 64px;
+    width: 180px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
