@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .work-sans-primary {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -5,6 +10,10 @@
 }
 
 /* shared style */
+.bg-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 .dark-1 {
     color: #131313;
 }
@@ -22,71 +31,76 @@
     color: white;
 }
 
-.bg-color {
-    background-color: rgba(255, 144, 14, 0.1);
-}
-
-
-
 /* nav style */
-.nav {
+.navbar {
     display: flex;
     justify-content: space-between;
-}
-
-.logo {
-    font-size: 3rem;
-    font-weight: 800;
-    margin-left: 230px;
-}
-
-.nav-links ul {
-    display: flex;
-    gap: 34px;
-    margin-right: 240px;
-
-}
-
-.nav-links ul li {
-    list-style: none;
-
-}
-
-.nav-links {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    padding-top: 62px;
 }
 
-.nav-links a {
+nav h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.nav-link {
+    margin-right: 60px; 
+}
+
+.nav-link a {
     text-decoration: none;
     font-size: 1.02rem;
+    font-weight: 500;
 }
 
 /* banner style */
-.banner-contain {
-    max-width: 862px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.banner-head {
+.heading {
     font-size: 4rem;
     font-weight: 800;
-    margin-bottom: 30px;
 }
 
-.banner-des {
+.contant-des {
     font-size: 1rem;
 }
 
-.explore-btn {
+.contant {
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+
+.heading {
+    margin-bottom: 30px;
+
+}
+
+.Explore-More {
     height: 64px;
     width: 180px;
     border-radius: 8px;
-    border: none;
     font-size: 1.25rem;
-    font-weight: 400;
+    border-style: none;
     margin-top: 32px;
-    margin-bottom: 50px;
+}
+
+.banner-img {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 38px;
+}
+
+.banner,
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
 }
