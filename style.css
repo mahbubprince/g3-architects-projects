@@ -36,6 +36,11 @@ main {
     margin: 0 auto;
 }
 
+.button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
 /* nav style */
 .navbar {
     display: flex;
@@ -170,12 +175,13 @@ header ul li {
 }
 
 .love-enjoy-head {
-    font-size: 20px;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .love-enjoy-des {
     font-size: 16px;
+    font-weight: 400;
     margin-top: 12px;
 }
 
@@ -208,4 +214,85 @@ header ul li {
     padding: 45px;
     margin-left: -100px;
     margin-top: -100px;
+}
+
+/* some facts style */
+.some-facts-head {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.some-facts-des {
+    font-size: 1rem;
+    max-width: 542px;
+}
+
+.achivement {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+
+.ach-head {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.ach-des {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+.fact-card {
+    display: flex;
+    border: #FF900E solid 2px;
+    border-radius: 8px;
+    height: 240.5px;
+    width: 240.5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* sponsor style */
+.sponsor-head {
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sponsor-des {
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sponsor-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    filter: grayscale(100%);
+    margin-bottom: 130px;
+
+}
+
+/* footer style */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+footer p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+    margin-bottom: 250px;
 }
