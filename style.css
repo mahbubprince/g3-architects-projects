@@ -31,6 +31,11 @@
     color: white;
 }
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* nav style */
 .navbar {
     display: flex;
@@ -53,7 +58,7 @@ header ul li {
 }
 
 .nav-link {
-    margin-right: 60px; 
+    margin-right: 60px;
 }
 
 .nav-link a {
@@ -103,4 +108,48 @@ header ul li {
 .navbar {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* features style */
+
+.Quick-list {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.of-Our {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.Features {
+    font-weight: 800;
+    color: #FF900E;
+    font-size: 3rem;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+
+}
+
+.four-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-contant {
+    max-width: 537px;
+    margin-left: 74px;
+}
+
+.features-des {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.items {
+    margin-top: 100px;
 }
