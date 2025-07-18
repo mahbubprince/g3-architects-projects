@@ -40,7 +40,7 @@ main {
     background-color: #2980b9;
     transform: scale(1.05);
 }
-
+li:hover{ text-decoration: underline;}
 /* nav style */
 .navbar {
     display: flex;
