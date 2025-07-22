@@ -197,7 +197,8 @@ header ul li {
 }
 
 .love-enjoy-img {
-    margin-left: 150px; width: 100%;
+    margin-left: 150px;
+    width: 100%;
 }
 
 .btn-head {
@@ -321,11 +322,12 @@ footer p {
     }
 
     .love-enjoy-img img {
-        
-       width: 100%; 
-    }.love-enjoy-img{ 
+
+        width: 100%;
+    }
+
+    .love-enjoy-img {
         margin-left: 0px;
-        padding-left: 10px;
     }
 
     .features-contant {
@@ -340,13 +342,19 @@ footer p {
 
     .achivement {
         grid-template-columns: repeat(1, 1fr);
-        gap: 30px; justify-items: center;
-        
+        gap: 30px;
+        justify-items: center;
+
     }
 
     .sponsor-img {
-        grid-template-columns: repeat(1, 1fr);justify-items: center; gap: 30px;
-    } .exp-btn{ 
-        margin-top: 20px; margin-left: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 30px;
+    }
+
+    .exp-btn {
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
