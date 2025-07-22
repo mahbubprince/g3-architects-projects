@@ -197,7 +197,7 @@ header ul li {
 }
 
 .love-enjoy-img {
-    margin-left: 150px;
+    margin-left: 150px; width: 100%;
 }
 
 .btn-head {
@@ -320,8 +320,33 @@ footer p {
 
     }
 
-    .love-enjoy-img {
-        margin: 20px auto;
-        max-width: 100%;
+    .love-enjoy-img img {
+        
+       width: 100%; 
+    }.love-enjoy-img{ 
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .features-contant {
+        margin-left: 15px;
+    }
+
+    .love-enjoy-container,
+    .some-facts,
+    .sponsor {
+        margin: 10px;
+    }
+
+    .achivement {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px; justify-items: center;
+        
+    }
+
+    .sponsor-img {
+        grid-template-columns: repeat(1, 1fr);justify-items: center; gap: 30px;
+    } .exp-btn{ 
+        margin-top: 20px; margin-left: 20px;
     }
 }
