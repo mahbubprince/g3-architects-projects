@@ -40,7 +40,11 @@ main {
     background-color: #2980b9;
     transform: scale(1.05);
 }
-li:hover{ text-decoration: underline;}
+
+li:hover {
+    text-decoration: underline;
+}
+
 /* nav style */
 .navbar {
     display: flex;
@@ -223,6 +227,10 @@ header ul li {
     margin-bottom: 25px;
 }
 
+.some-facts {
+    margin-top: 110px;
+}
+
 .some-facts-des {
     font-size: 1rem;
     max-width: 542px;
@@ -295,4 +303,25 @@ footer p {
     padding-bottom: 50px;
     border-radius: 8px;
     margin-bottom: 250px;
+}
+
+/*  small device responsive */
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    header ul,
+    .features,
+    .love-enjoy {
+        flex-direction: column;
+    }
+
+    .four-img {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .love-enjoy-img {
+        margin: 20px auto;
+        max-width: 100%;
+    }
 }

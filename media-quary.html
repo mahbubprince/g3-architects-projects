@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-quary</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+
+        }
+
+        .card {
+            border: 2px solid;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        .card>button {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            border-style: none;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: brown;
+            transform: scale(1.2);
+        }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 576px) and (max-width:992px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (min-width: 992px) and (max-width: 1200px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dicta nobis perferendis ex distinctio
+                aliquid molestiae quibusdam aut vel ut.</p>
+            <button> Buy Now
+
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Id tenetur magnam sapiente vel quod nihil debitis, dolor nesciunt veritatis minus optio ipsum. Laborum at
+                perferendis vitae ut quaerat!</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Voluptatibus, sit? Placeat quod voluptatibus temporibus. Consectetur et corrupti quia obcaecati deserunt,
+                dolorem incidunt doloribus repellendus nisi praesentium minima rerum.</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Ipsum nesciunt, in velit incidunt iste, autem officiis, cumque mollitia sit laboriosam sed earum. Fugit
+                quas rem ratione sed sequi.</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Quisquam quidem vitae voluptatem velit debitis, reprehenderit eius beatae alias voluptatibus id ducimus
+                enim consequuntur, animi quae vero? Libero, modi.</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Quos corporis enim sit, perferendis excepturi id incidunt qui provident sequi recusandae, at vel iusto
+                aut mollitia. Nesciunt, maiores vitae.</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Maxime reprehenderit beatae cumque quisquam cum quaerat ad odio? Commodi eaque, enim quis iure tempora ut
+                nam mollitia odit repellat.</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Illum quia cumque qui dolores labore rerum provident delectus, et officia magnam? Atque beatae
+                necessitatibus quae quis neque corporis libero!</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Blanditiis doloribus in voluptas facilis quam odit itaque id aliquid labore tempore aperiam delectus
+                totam iure, dolore nesciunt error ab?</p>
+            <button> Buy Now
+            </button>
+        </div>
+        <div class="card">
+            <img src="images/banner.png" alt="">
+            <h4> products</h4>
+            <p>Aliquam magnam recusandae libero velit, veritatis est, consectetur quas optio repellendus odio iste hic
+                officiis assumenda impedit rem magni? Facilis?</p>
+            <button> Buy Now
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
